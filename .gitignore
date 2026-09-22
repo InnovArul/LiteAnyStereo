@@ -1,5 +1,6 @@
 # Python
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *.egg-info/
 .eggs/
@@ -29,3 +30,15 @@ wandb/
 # Test output
 *.png
 !assets/**/*.png
+
+# Datasets
+data/
+
+# Download artefacts
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Output / inference results
+output-vis/
